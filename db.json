@@ -1,0 +1,171 @@
+{
+  "users": [
+    {
+      "id": 1,
+      "email": "alice@test.com",
+      "password": "password123",
+      "name": "Alice",
+      "role": "admin"
+    },
+    {
+      "id": 2,
+      "email": "bob@test.com",
+      "password": "password456",
+      "name": "Bob",
+      "role": "user"
+    },
+    {
+      "email": "rohith@test.com",
+      "password": "$2a$10$kh2T6KzGAPkv0uOyb0Hh/e2Hqpd16jsUExhJKLJ3.ODIjrBp5hVVC",
+      "id": 3,
+      "name": "harsha"
+    },
+    {
+      "email": "rohith@inphosis.com",
+      "password": "$2a$10$8/JrMv1yEZYtUIkOP0xEhuIBMcO4ennyv3iK7aaLSQUYZk8hcKYP2",
+      "id": 4
+    },
+    {
+      "email": "rohith@vipro.com",
+      "password": "$2a$10$gFT3jagwp492cNzqvqrXbe5f3fPKqS3Xn.qU3RR.OQK4ZKZJhNSym",
+      "id": 5
+    },
+    {
+      "email": "gana@test.com",
+      "password": "$2a$10$JvZ.IzPzoy6jhk3UfCwGW.P9p7LT9ylgJmi3qdM6qct4WfbP6Yuda",
+      "name": "gana",
+      "id": 6
+    },
+    {
+      "email": "gana@email.com",
+      "password": "$2a$10$.wXCbvZmhaxL2FQwh40Ab.6JDzPs4dzN7ylpqcH.GSVDPlCmd95yS",
+      "name": "gana",
+      "id": 8
+    },
+    {
+      "email": "samantha@email.com",
+      "password": "$2a$10$ZnSUFPzWtWidxN2lGyy9VOXqo/MlmUhBgzMSucaa6xLJ15TsYK.E2",
+      "name": "gana",
+      "id": 9
+    },
+    {
+      "password": "$2a$10$r3kC4bhOXsLaVBhh42DEIuH/HMxOFmX/DZCbwTYqAtnTMLQJ6w/q2",
+      "role": "admin",
+      "email": "abc@jaffa.com",
+      "id": 7
+    },
+    {
+      "email": "murali@gmail.com",
+      "password": "$2a$10$/iCKjynKpNksWA0V57WHEO6B9k6Ci1xdLJuXWj4YlthBj4Qhyo9tS",
+      "role": "user",
+      "name": "murali",
+      "id": 10
+    },
+    {
+      "email": "akshay@gmail.com",
+      "password": "$2a$10$nOLbYc0T8JzrBLj7aQN8IOTeFfWEZATxEy.t2AXR0vB73TcvN29bO",
+      "role": "user",
+      "id": 11,
+      "name": "akshay"
+    },
+    {
+      "email": "raghu@gmail.com",
+      "password": "$2a$10$qa3G3tF14LBDEW1b3k9ZAeYaS6F5UUbGNe/JFT1mmyHkrOM.1afjq",
+      "role": "guest",
+      "name": "raghu",
+      "id": 12
+    },
+    {
+      "email": "Charlie1@test.com",
+      "password": "$2a$10$I2OU/aB/zC.MDKiviGmdYegkiHK75D6rpXU.P0jzG9Td5XCsxHR1W",
+      "name": "Charlie",
+      "id": 13
+    }
+  ],
+  "products": [
+    {
+      "id": 1,
+      "name": "Laptop",
+      "price": 999,
+      "category": "electronics"
+    },
+    {
+      "id": 2,
+      "name": "Phone",
+      "price": 499,
+      "category": "electronics"
+    },
+    {
+      "name": "watch",
+      "price": 299,
+      "category": "electronics",
+      "id": 3
+    },
+    {
+      "name": "refrigerator",
+      "price": 1299,
+      "category": "electronics",
+      "id": 4
+    }
+  ],
+  "orders": [
+    {
+      "id": 1,
+      "userId": 1,
+      "productId": 2,
+      "status": "shipped"
+    }
+  ],
+  "Payments": [
+    {
+      "name": "gana",
+      "type": "cash"
+    },
+    {
+      "name": "rohith",
+      "type": "Online"
+    },
+    {
+      "id": 1,
+      "name": "chandu",
+      "type": "COD"
+    },
+    {
+      "name": "sai",
+      "type": "COD",
+      "id": 2
+    },
+    {
+      "name": "saikumar",
+      "type": "COD",
+      "id": 3
+    }
+  ],
+  "City": [
+    {
+      "user": 1,
+      "City": "Salur",
+      "DT": "Manyam"
+    },
+    {
+      "user": 2,
+      "City": "RB puram",
+      "DT": "Manyam"
+    },
+    {
+      "user": 3,
+      "City": "Palakolu",
+      "DT": "Godavari"
+    },
+    {
+      "id": 1,
+      "City": "VZM",
+      "DT": "Godavari"
+    },
+    {
+      "City": "VSJP",
+      "DT": "Godavari",
+      "id": 2
+    }
+  ]
+}
