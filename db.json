@@ -62,11 +62,11 @@
       "id": 10
     },
     {
-      "email": "akshay@gmail.com",
+      "email": "alice@inphosis.com",
       "password": "$2a$10$nOLbYc0T8JzrBLj7aQN8IOTeFfWEZATxEy.t2AXR0vB73TcvN29bO",
       "role": "user",
       "id": 11,
-      "name": "akshay"
+      "name": "alicekumar"
     },
     {
       "email": "raghu@gmail.com",
@@ -80,6 +80,27 @@
       "password": "$2a$10$I2OU/aB/zC.MDKiviGmdYegkiHK75D6rpXU.P0jzG9Td5XCsxHR1W",
       "name": "Charlie",
       "id": 13
+    },
+    {
+      "email": "Mahes@gmail.com",
+      "password": "$2a$10$hjMxTqbNDav038YdzNkt0us/Auqvy/01zlPBzS8lvKU9MKRhpYpHG",
+      "name": "MaheshBabu",
+      "role": "Developer",
+      "id": "15"
+    },
+    {
+      "email": "Pk@gmail.com",
+      "password": "$2a$10$etilVnjHhMa35rbhgmLEv.czBcBGCmUI1L5o4bukfoOKYb63kR0vW",
+      "name": "PavanKalyan",
+      "role": "user",
+      "id": "qd1KBXI"
+    },
+    {
+      "email": "chiru@gmail.com",
+      "password": "$2a$10$.LpkZbsjLJC4om5SsOPBhexliANJN9bFCjb1QRqyuXBnDd4KbKAj6",
+      "name": "Chiru",
+      "role": "user",
+      "id": "AsQhm7z"
     }
   ],
   "products": [
