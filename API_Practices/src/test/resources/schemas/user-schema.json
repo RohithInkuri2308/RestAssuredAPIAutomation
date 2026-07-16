@@ -1,0 +1,46 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "title": "User Schema",
+  "description": "Validates user object from /users endpoint",
+  "type": "object",
+
+  "required": ["name", "email","password"],
+
+  "properties": {
+
+    "id": {
+      "type": "integer",
+      "description": "User ID must be a positive integer",
+      "minimum": 1
+    },
+
+    "name": {
+      "type": "string",
+      "description": "User name must not be empty",
+      "minLength": 1
+    },
+
+    "email": {
+      "type": "string",
+      "description": "Must be a valid email format",
+      "pattern": "^[a-zA-Z0-9._%+\\-]+@[a-zA-Z0-9.\\-]+\\.[a-zA-Z]{2,}$"
+    },
+
+    "password": {
+      "type": "string",
+      "description": "Password is optional in response",
+      "minLength": 4
+    },
+
+    "role": {
+      "type": "string",
+      "description": "Role must be admin or user only",
+      "enum": ["admin", "user", "guest"]
+    }
+
+  },
+
+  "additionalProperties": false
+}
+
+
